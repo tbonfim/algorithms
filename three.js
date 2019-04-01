@@ -44,13 +44,13 @@ class Tree {
 	}
 }
 
-(function() {
-	const tree = new Tree();
-	tree.root = new Node(1);
-	tree.root.add(2);
-	tree.root.add(3);
-	tree.root.children[0].add(4);
+// (function() {
+// 	const tree = new Tree();
+// 	tree.root = new Node(1);
+// 	tree.root.add(2);
+// 	tree.root.add(3);
+// 	tree.root.children[0].add(4);
 
-	tree.traverseBreadth();
-	tree.traverseDepth();
-})();
+// 	tree.traverseBreadth();
+// 	tree.traverseDepth();
+// })();
