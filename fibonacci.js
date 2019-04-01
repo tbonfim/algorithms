@@ -12,7 +12,7 @@
         var ppfib = 0;
         var pfib = 1;
         var fib = 0;
-        for (let i = 2; i <= n; i++) {
+        for (var i = 2; i <= n; i++) {
             fib = ppfib + pfib;
             ppfib = pfib;
             pfib = fib;
