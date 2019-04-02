@@ -28,4 +28,7 @@ class Stack {
 //     console.log( ' Size ', stack.size());
 //     console.log( ' Pop ', stack.pop());
 //     console.log( ' Size ', stack.size());
+//     while(stack.size() > 0){
+//         console.log('Item: ' + stack.pop());
+//     }
 // })();
