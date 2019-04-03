@@ -15,6 +15,7 @@ class Queue {
         return this.data.length;
     }
 }
+export default Queue;
 // (function(){
 //     let queue = new Queue();
 //     console.log(' Initial size ', queue.size());

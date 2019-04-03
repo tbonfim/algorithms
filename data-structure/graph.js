@@ -27,6 +27,7 @@ class Graph{
     }
 }
 
+export default Graph;
 // (()=>{
 //     var graph= new Graph(5); 
 //     var vertices = [ 'v1', 'v2', 'v3', 'v4', 'v5' ]; 

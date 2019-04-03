@@ -12,7 +12,7 @@ const quickSort = array => {
 	return [...quickSort(left), pivot, ...quickSort(right)];
 };
 
-
+export default quickSort;
 // (()=>{
 //     let array = [1,221,32,3,6,4,3,3,2,6,88,4,54,23,6,21,3];
 //     console.log(quickSort(array));

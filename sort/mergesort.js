@@ -20,6 +20,7 @@ const merge = (left, right) => {
 
 	return result;
 };
+export default mergeSort;
 
 // (()=>{
 //     const array = [2,3,1,4,5,2,3,5,67,13,4,5,34,45,245,3456,7,57,45,6,32,4,1,243];

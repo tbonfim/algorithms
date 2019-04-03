@@ -101,6 +101,7 @@ class LinkedList {
 
 }
 
+export default LinkedList;
 // (function(){
 //     let list = new LinkedList();
 //     list.insertHead(1);

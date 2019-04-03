@@ -9,7 +9,7 @@ const binarySearch = (array, value) => {
 		return binarySearch(array.splice(midIndex + 1, array.length), value);
 	else return false;
 };
-
+export default binarySearch;
 // (()=>{
 //     const array = [1,1,2,3,5,5,5,6,7,13,32,34,45,45,57,67,243,245,3456];
 //     console.log(" Array ", array.toString());

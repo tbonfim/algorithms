@@ -43,7 +43,7 @@ class Tree {
 		}
 	}
 }
-
+export default Tree;
 // (function() {
 // 	const tree = new Tree();
 // 	tree.root = new Node(1);

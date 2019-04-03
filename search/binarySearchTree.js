@@ -1,4 +1,4 @@
-class Node {
+class TreeNode {
 	constructor(data) {
 		this.data = data;
 		this.left = null;
@@ -19,6 +19,7 @@ class Node {
 		return null;
 	}
 }
+export default TreeNode;
 // (()=>{
 //     const root = new Node(5);
 //     root.insert(1);

@@ -15,7 +15,7 @@ class Stack {
         return this.data.length;
     }
 }
-
+export default Stack;
 // (function(){
 //     let stack = new Stack();
 //     console.log(' Initial size ', stack.size());
