@@ -14,9 +14,9 @@ class Graph{
     }
 
     print(){
-        const keys = Array.from(this.adjacentList.keys()); 
+        const keys = [...this.adjacentList.keys()];  
         keys.forEach( (key) =>{
-            const values = Array.from(this.adjacentList.get(key));
+            const values = [...this.adjacentList.get(key)];
             let result = ""; 
             values.forEach((value)=>{
                 result += value + " ";
